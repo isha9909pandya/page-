@@ -1,0 +1,105 @@
+*{
+    padding:0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.navbar{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: bisque;
+    overflow: hidden;
+}
+.navbar .logo{
+    float: left;
+    padding: 5px;
+    text-decoration: none;
+    border: none;
+    width: 150px;
+}
+.navbar .logo img{
+    width:40% ;
+    height: auto;
+}
+.navbar .logo h1{
+    float: right;
+
+}
+.navbar ul {
+    list-style: none;
+    
+            margin: 0;
+            padding: 0;
+            display: flex; 
+   
+}
+.navbar ul li{
+    padding: 10px;
+    
+}
+.navbar ul li{
+    float: left;
+    background-color: rgb(240, 11, 42);
+    margin: 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(219, 204, 204);
+   
+}
+.navbar ul li:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.navbar .navbar-btn button {
+    
+    padding: 20px;
+    background-color:rgb(15, 14, 14);   
+    color: white;  
+    margin: 5px;     
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;           
+    font-size: 16px;
+    
+}
+.navbar .navbar-btn button:hover {
+    background-color: #d5e40b;    
+}
+.content{
+    text-align:center ;
+    border: none;
+}
+.content button{
+    margin: 5px;
+    font-size: medium;
+    color: white;
+    background-color: black;
+}
+.content button:hover{
+    color: bisque;
+    background-color: brown;
+}
+
+.poster{
+            
+    width: 100%; 
+}
+
+.poster1{
+    float: left;
+    width: 30%;
+    margin: 1.6%;
+  
+    text-align: center;
+}
+.poster1 img {
+    width: 100%; 
+    height: auto;
+}
